@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="04details.css" />
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+    <script type="text/javascript"> 
+      $(document).ready(function(){
+        var page=0;
+        $(".div-fenleiul").css("display","none");
+        $("#a-basket").click(function(){
+          if(document.getElementById("div-basket").style.display=="none")
+          {
+            document.getElementById("div-basket").style.display="block";
+            $(this).css({"border":"solid 1px rgb(229,229,229)","padding":"7px","margin-left":"18px","background-color":"white","border-bottom-width":"0"});
+          }
+          else
+          {
+            document.getElementById("div-basket").style.display="none";
+            $(this).css("border","0px");
+          }
+        });
+        
+        $(".button-page").click(function(){
+          $(".button-page").removeClass("button-page-xuanzhong");
+          $(this).addClass("button-page-xuanzhong");
+        });
+      });
+      function shanchu(i)
+      {
+        if(i==0)
+          document.getElementById("div-basket-kid0").style.display="none";
+        else if(i==1)
+          document.getElementById("div-basket-kid1").style.display="none";
+      }
+    </script>  
+  </head>
+  <body>
+    <div id="div-cont" class="col-sm-12">
+      
+      <div id="div-header" class="col-sm-12">
+        <a class="button-header">SH</a>
+        <ul id="ul-header">
+          <li><a class="ul-header-a">Woman</a></li>
+          <li><a class="ul-header-a">Men</li>
+          <li><a class="ul-header-a">Kids</a></li>
+          <li><a class="ul-header-a">Comming Soon</a></li>
+          <li><a class="ul-header-a">About</a></li>
+        </ul>
+        <a class="button-header a-header" id="button-header-sousuo">
+          <img class="img-header img-header-3" src="images/header-img3.png" />
+        </a> 
+        
+        <div id="div-basket">
+          
+          <div class="div-basket-kid" id="div-basket-kid0">
+            <img src="images/basket-fangkuai.png" />
+            <span class="basket-floral">FLORAL PLIMASOLL</span>
+            <span class="basket-price">¢99.95</span>
+            <img src="images/shanchu.png" id="img-shanchu0" onclick="shanchu(0)"/> 
+            <hr class="hr-basket" />   
+          </div>
+          
+          <div class="div-basket-kid" id="div-basket-kid1">
+            <img src="images/basket-fangkuai.png" />
+            <span class="basket-floral">FLORAL PLIMASOLL</span>
+            <span class="basket-price">¢99.95</span>
+            <img src="images/shanchu.png" id="img-shanchu1" onclick="shanchu(1)"/> 
+            <hr class="hr-basket" />   
+          </div>    
+          
+          <div class="div-basket-kid">
+            <span class="basket-floral basket-sbtotal">Subtotal:</span>
+            <span class="basket-price basket-sbtotalprice">¢567.95</span>
+            <a id="basket-checkout">CHECKOUT</a>   
+          </div>     
+        </div>  
+        <a class="a-header" id="a-basket">
+          <img class="img-header" src="images/header-img2.png" />
+          <span class="span-header">Basket [4]</span>   
+        </a>
+        <a class="a-header">
+          <img class="img-header" src="images/header-img1.png" />
+          <span class="span-header">Hi,Michael(<span class="header-log">logout</span>)</span>
+        </a>
+        <hr />
+      </div>
+      
+      <div class="col-sm-12" id="div-home">
+        <p class="text-home">HOME <span id="xiegang">/</span> MEN<span id="xiegang">/</span>SHOES<span id="xiegang">/</span>FLORAL PLIMSOLL</p>
+      </div>
+      
+      <div class="col-sm-12" id="div-edit">
+        
+        <div class="col-sm-12">
+          <p class="title-coats">EDIT YOUR ACCOUNT</p>
+        </div>
+     
+        <div class="col-sm-12 div-edit-kid">
+          
+          <div class="col-sm-6 div-edit-input">
+            <p class="text-edit">FIRST NAME</p>
+            <input type="text" class="col-sm-12 input-edit" value="Michael" /> 
+          </div>  
+          
+          <div class="col-sm-6 div-edit-input">
+            <p class="text-edit">LAST NAME</p>
+            <input type="text" class="col-sm-12 input-edit" />  
+          </div>  
+          
+        </div> 
+        
+        <div class="col-sm-12 div-edit-kid">
+          
+          <div class="col-sm-8 div-edit-input">
+            <p class="text-edit">COMPANY NAME(<span class="text-italic">optional</span>)</p>
+            <input type="text" class="col-sm-12 input-edit"/> 
+          </div>  
+          
+          <div class="col-sm-4 div-edit-input">
+            <p class="text-edit">NIP(<span class="text-italic">optional</span>)</p>
+            <input type="text" class="col-sm-12 input-edit" />  
+          </div>  
+          
+        </div> 
+        
+        <div class="col-sm-12 div-edit-kid">
+          
+          <div class="col-sm-12 div-edit-input">
+            <p class="text-edit">ADDRESS</p>
+            <input type="text" class="col-sm-12 input-edit"/> 
+          </div> 
+          
+        </div>
+        
+        <div class="col-sm-12 div-edit-kid">
+          
+          <div class="col-sm-6 div-edit-input">
+            <p class="text-edit">CITY</p>
+            <input type="text" class="col-sm-12 input-edit" value="Michael" /> 
+          </div>  
+          
+          <div class="col-sm-6 div-edit-input">
+            <p class="text-edit">ZIP CODE</p>
+            <input type="text" class="col-sm-12 input-edit" />  
+          </div>  
+          
+        </div>  
+        
+        <div class="col-sm-12 div-edit-kid">
+          
+          <div class="col-sm-12 div-edit-input">
+            <p class="text-edit">COUNTRY</p>
+            <input type="text" class="col-sm-12 input-edit" value="Poland"/> 
+          </div> 
+          
+        </div> 
+        
+        <div class="col-sm-12 div-edit-kid nopadding">
+          
+          <div class="col-sm-6 div-edit-input">
+            <p class="text-edit">PHONE NUMBER</p>
+            <input type="text" class="col-sm-12 input-edit" value="Michael" /> 
+          </div>  
+          
+          <div class="col-sm-6 div-edit-input">
+            <p class="text-edit">E-MAIL</p>
+            <input type="text" class="col-sm-12 input-edit danxuan" />  
+          </div>  
+          
+        </div> 
+        
+        <div class="col-sm-12 div-edit-kid div-checkbox">
+          <p class="text-edit text-use"><input type="checkbox" aria-label="..."><span id="span-use">Use this address for Billing</span></p>
+        </div>   
+        
+        <div class="col-sm-12 div-edit-kid div-checkbox">
+          <a id="button-save">SAVE</a>
+        </div>  
+     
+      </div> 
+      
+      <div class="col-sm-12" id="div-bottom">
+        
+        <div class="col-sm-3 div-bottom-kids">
+          <p class="title-bottom">COLLETION</p>
+          <ul class="ul-jiewei">
+            <li><a class="a-jiewei">Woman(1725)</a></li>
+            <li><a class="a-jiewei">Men(675)</a></li>
+            <li><a class="a-jiewei">Kids(2514)</a></li>
+            <li><a class="a-jiewei">Comming Soon(76)</a></li>
+          </ul>    
+        </div> 
+        
+        <div class="col-sm-3 div-bottom-kids">
+          <p class="title-bottom">SITE</p>
+          <ul class="ul-jiewei">
+            <li><a class="a-jiewei">Terms of Service</a></li>
+            <li><a class="a-jiewei">Privacy Policy</a></li>
+            <li><a class="a-jiewei">Copyright Policy</a></li>
+            <li><a class="a-jiewei">Press Kit</a></li>
+            <li><a class="a-jiewei">Support</a></li>
+          </ul>    
+        </div>
+        
+        <div class="col-sm-3 div-bottom-kids">
+          <p class="title-bottom">SHOP</p>
+          <ul class="ul-jiewei">
+            <li><a class="a-jiewei">About us</a></li>
+            <li><a class="a-jiewei">Shippinf Metods</a></li>
+            <li><a class="a-jiewei">Career</a></li>
+            <li><a class="a-jiewei">Contact</a></li>
+          </ul>    
+        </div> 
+        
+        <div class="col-sm-3 div-bottom-kids">
+          <p class="title-bottom">SOCIAL</p>
+          <ul class="ul-jiewei">
+            <li><a class="a-jiewei">Shoped is made with love in Warsaw</a></li>
+            <li><a class="a-jiewei">2014 @ All rights reserved.El Passion</a></li>
+          </ul>
+          <a class="img-jiewei"><img src="images/bottom1.png" /></a>
+          <a class="img-jiewei" id="img-jiewei-fb"><img src="images/bottom2.png" /></a> 
+          <a class="img-jiewei"><img src="images/bottom3.png" /></a>     
+        </div>   
+      </div> 
+	</div>  

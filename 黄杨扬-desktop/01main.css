@@ -1,0 +1,361 @@
+body
+{
+	font-family:Asias;
+}
+.col-sm-3
+{
+	margin:0;
+	padding:0;
+}
+a,a:hover
+{
+	text-decoration:none;
+}
+#div-cont
+{
+	padding-left:1.6%;
+	padding-right:1.6%;
+}
+#div-header
+{
+	padding-top:18px;
+	padding-bottom:2px;
+	min-width:700px;
+}
+.button-header
+{
+	font-size:13px;
+	color:white;
+	border:solid 1px rgb(34,34,34);
+	background-color:rgb(34,34,34);
+	padding:5px;
+}
+.button-header:hover
+{
+	border:solid 3px rgb(219,219,219);
+}
+#ul-header
+{
+	text-decoration:none;
+	display:inline;
+}
+#ul-header li
+{
+	display:inline;
+	margin-left:4.5%;
+}
+.ul-header-a
+{
+	color:rgb(91,91,91);
+	font-size:13px;
+}
+.img-header
+{
+	padding-right:5px;
+}
+.a-header
+{
+	float:right;
+	font-size:12px;
+	padding-left:3.5%;
+	color:rgb(48,48,48);
+	padding-top:5px;
+}
+#button-header-sousuo
+{
+	margin-left:3.5%;
+	padding-left:5px;
+	border:solid 1px rgb(149,149,149);
+	background-color:white;
+}
+#button-header-sousuo:hover
+{
+	border:solid 3px rgb(219,219,219);
+}	
+.img-header-3
+{
+	padding:0;
+	width:13px;
+}
+hr
+{
+	border:solid 1px rgb(229,229,229);
+	margin-top:25px;
+}
+#div-hazy
+{
+	padding-top:55px;
+	padding-bottom:105px;
+	text-align:center;
+}
+#title-hazy
+{
+	font-size:50px;
+	font-family:sans-serif;
+	font-weight:300;
+	margin-bottom:0;
+	color:rgb(48,48,48);
+}
+#text-hazy
+{
+	font-size:20px;
+	font-style:italic;
+	font-family:serif;
+	font-weight:100;
+	color:rgb(91,91,91);
+	padding-bottom:40px;
+}
+#button-hazy
+{
+	border:solid 1px rgb(149,149,149);
+	padding:15px;
+	padding-left:22px;
+	padding-right:22px;
+	color:rgb(91,91,91);
+	font-size:14px;
+}
+#button-hazy:hover
+{
+	border:solid 8px rgb(219,219,219);
+}
+.div-4x4-kids
+{
+	text-align:center;
+}
+#div-4x4-1
+{
+	height:500px;
+	background-color:rgb(210,210,210);
+	padding-top:205px;
+}
+#div-4x4-2
+{
+	height:250px;
+	background-color:rgb(194,194,194);
+}
+#div-4x4-3
+{
+	height:250px;
+	background-color:rgb(187,187,187);
+}
+#div-4x4-4
+{
+	height:250px;
+	background-color:rgb(202,202,202);
+	padding-top:100px;
+}
+#div-4x4-5
+{
+	height:250px;
+	background-color:rgb(96,96,96);
+	padding-top:88px;
+}
+#div-4x4-6
+{
+	height:250px;
+	background-color:rgb(219,219,219);
+}
+#div-4x4-7
+{
+	padding-top:20px;
+	height:250px;
+	background-color:rgb(187,187,187);
+}
+#div-4x4-8
+{
+	height:250px;
+	background-color:rgb(208,208,208);
+	padding-top:100px;
+}
+#div-4x4-9
+{
+	height:250px;
+	background-color:rgb(96,96,96);
+	padding-top:88px;
+}
+#div-4x4-10
+{
+	height:500px;
+	background-color:rgb(215,215,215);
+	padding-top:210px;
+}
+.title-4x4
+{
+	font-size:19px;
+	margin:0;
+	font-family:serif;
+	color:white;
+	font-weight:500;
+}
+.pre-4x4
+{
+	color:white;
+	font-size:16px;
+	font-family:monospace;
+	font-style:italic;
+	font-weight:100;
+}
+.img-4x4
+{
+	padding-top:30px;
+	padding-bottom:16px;
+}
+.text-4x4
+{
+	color:white;
+	margin:0;
+	font-size:15px;
+	font-style:italic;
+}
+.text-tixing
+{
+	color:white;
+	padding-top:15px;
+	font-family:Asias;
+	font-size:17px;
+}
+.div-sign
+{
+	text-align:center;
+	padding-top:90px;
+	padding-bottom:90px;
+	min-width:700px;
+}
+#title-sign
+{
+	font-family:Helvetica;
+	font-size:26px;
+	font-weight:500;
+	color:rgb(48,48,48);
+	margin:0;
+}
+#text-sign
+{
+	font-size:16px;
+	font-style:italic;
+	color:rgb(96,96,96);
+	padding-bottom:25px;
+}
+#shuru-sign
+{
+	width:365px;
+	border:solid 1px rgb(149,149,149);
+	color:rgb(149,149,149);
+	font-size:14px;
+	padding:10px;
+	font-style:italic;
+}
+#button-sign
+{
+	border:solid 1px rgb(246,130,54);
+	color:white;
+	padding:13px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:14px;
+	background-color:rgb(246,130,54);
+	margin:-5px;
+}
+.div-zhanshi
+{
+	padding-bottom:55px;
+}
+.img-zhanshi
+{
+	height:100px;
+	padding:0;
+}
+#div-zhanshi1
+{
+	background-image:url("images/zhanshi1.png");
+	background-size:cover;
+}
+#div-zhanshi2
+{
+	background-image:url("images/zhanshi2.png");
+	background-size:cover;
+}
+#div-zhanshi3
+{
+	background-image:url("images/zhanshi3.png");
+	background-size:cover;
+}
+#div-zhanshi4
+{
+	background-image:url("images/zhanshi4.png");
+	background-size:cover;
+}
+#div-zhanshi5
+{
+	background-image:url("images/zhanshi5.png");
+	background-size:cover;
+}
+#div-zhanshi6
+{
+	background-image:url("images/zhanshi6.png");
+	background-size:cover;
+}
+.button-zhanshi-left
+{
+	font-size:20px;
+	color:white;
+	background-color:rgb(200,200,200);
+	padding:7px;
+	padding-top:35px;
+	padding-bottom:35px;
+	padding-right:10px;
+	float:left;
+	opacity:0.8;
+	text-align:center;
+}
+.button-zhanshi-right
+{
+	font-size:20px;
+	color:white;
+	background-color:rgb(200,200,200);
+	padding:7px;
+	padding-top:35px;
+	padding-bottom:35px;
+	padding-left:10px;
+	float:right;
+	opacity:0.8;
+}
+.jiantou-zhanshi
+{
+	width:65%;
+}
+.title-bottom
+{
+	font-size:14px;
+	color:rgb(48,48,48);
+}
+.ul-jiewei
+{
+	text-decoration:none;
+	list-style:none;
+	padding:0;
+	font-size:13px;
+}
+.a-jiewei,.a-jiewei:hover
+{
+	color:rgb(108,108,108);
+}
+.a-jiewei:hover
+{
+	text-decoration:underline;
+}
+.img-jiewei
+{
+	border:solid 1px rgb(96,96,96);
+	padding:7px;
+	margin-right:13px;
+}
+.img-jiewei:hover
+{
+	border:solid 3px rgb(219,219,219);
+}
+#img-jiewei-fb
+{
+	padding-left:11px;
+	padding-right:11px;
+}
