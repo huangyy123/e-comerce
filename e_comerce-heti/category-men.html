@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SH</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-light">
+                <div class="pull-left">
+                    <a class="logo" href="index.html"><img src="images/logo.png" /></a>
+                </div>
+                <button class="navbar-menu-btn navbar-toggler pull-right hidden-md-up" type="button"
+                        data-toggle="collapse" data-target="#navbar">
+                </button>
+                <div class="collapse navbar-toggleable-sm" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a href="category-all.html" class="nav-link">Woman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="category-men.html" class="nav-link">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Kids</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Comming Soon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="account pull-right col-md-6">
+                    <div class="search hidden-sm-down">
+                        <input type="hidden" name="search" placeholder="Search something...">
+                        <a id="search-icon" class="pull-right"></a>
+                    </div>
+                    <div class="basket">
+                        <i><img src="images/basket.png" alt="basket"></i>
+                        <a id="basket-bag" class="hidden-sm-down">Basket
+                            (<span id="basket-count">4</span>)
+                        </a>
+
+                        <div class="basket-bag-open col-md-6">
+                            <div class="basket-bag-content">
+                                <div class='empty_bag hidden' ><p>当前购物车中无商品，去<a href='index.html'>逛逛</a>吧！</p></div>
+                                <div class="basket-bag-open-item pid_1 clearfix">
+                                    <div class="col-md-9">
+                                        <div class="col-md-3 text-middle">
+                                            <div class="text-middle-content">
+                                                <img src="images/shop-cat-product-alt.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 text-middle p-l-md">
+                                            <div class="text-middle-content">
+                                                FLORAL PLIMSOLL
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-6  text-middle">
+                                            <div class="text-middle-content">
+                                                €<span class="basket-bag-open-item-price">99.95</span>
+                                                <div>x<span class="basket-bag-open-item-number">1</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pull-right text-center text-middle">
+                                            <div class="text-middle-content">
+                                                <a class="shopping-cat-product-delete">×</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="basket-bag-open-item pid_2 clearfix">
+                                    <div class="col-md-9">
+                                        <div class="col-md-3 text-middle">
+                                            <div class="text-middle-content">
+                                                <img src="images/shop-cat-product-alt.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 text-middle p-l-md">
+                                            <div class="text-middle-content">
+                                                COATED 5 POCKET TROUSERS
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-6  text-middle">
+                                            <div class="text-middle-content">
+                                                €<span class="basket-bag-open-item-price">169.00</span>
+                                                <div>x<span class="basket-bag-open-item-number">1</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pull-right text-center text-middle">
+                                            <div class="text-middle-content">
+                                                <a class="shopping-cat-product-delete">×</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="basket-bag-open-item pid_3 clearfix">
+                                    <div class="col-md-9">
+                                        <div class="col-md-3 text-middle">
+                                            <div class="text-middle-content">
+                                                <img src="images/shop-cat-product-alt.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 text-middle p-l-md">
+                                            <div class="text-middle-content">
+                                                OVERSIZED STUDIO BLOUSE
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-6  text-middle">
+                                            <div class="text-middle-content">
+                                                €<span class="basket-bag-open-item-price">169.00</span>
+                                                <div>x<span class="basket-bag-open-item-number">1</span></div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pull-right text-center text-middle">
+                                            <div class="text-middle-content">
+                                                <a class="shopping-cat-product-delete">×</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="basket-bag-open-subtotal clearfix">
+                                <p class="p-l-0 p-r-0 pull-left">Subtotal:<span class="basket-bag-subtotal-money">€567,95</span>
+                                </p>
+                                <button class="basket-bag-open-btn pull-right ">check out</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="user hidden-sm-down">
+                        <i><img src="images/user.png" alt="user"></i>
+                        <a href="order-history.html" id="user-name" class="">Hi,Michal</a>
+                        <a id="login-in" href="#" class="hidden" data-toggle="modal" data-target="#login-modal">Log
+                            in</a>
+                        <span id="login-out" class="">(<a href="#">logout</a>)</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="header-link">
+    <div class="container">
+        <div class="row">
+            <a href="index.html" class="btn-link">HOME</a>
+            <a href="#" class="btn-link">MEN</a>
+        </div>
+    </div>
+</div>
+<div class="categorys">
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="category-type">
+                    <h1 class="category-type-title">MEN</h1>
+                    <a href="#" class="category-type-link-all">All products</a>
+
+                    <div class="category-type-style clearfix">
+                        <div class="col-md-8 category-type-style-item">
+                            <div class="col-xs-4">
+                                <div class="style-content clearfix">
+                                    <span class="style-content-left pull-left">Price</span>
+                                    <span class="style-content-right pull-right"></span>
+                                </div>
+                                <ul class="style-selection">
+                                    <li>€20-30</li>
+                                    <li>€30-50</li>
+                                    <li>€50-100</li>
+                                    <li>€100 and more</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="style-content clearfix">
+                                    <span class="style-content-left pull-left">Size</span>
+                                    <span class="style-content-right pull-right"></span>
+                                </div>
+                                <ul class="style-selection">
+                                    <li>39</li>
+                                    <li>40</li>
+                                    <li>41</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="style-content clearfix">
+                                    <span class="style-content-left pull-left">Color</span>
+                                    <span class="style-content-right pull-right"></span>
+                                </div>
+                                <ul class="style-selection">
+                                    <li>One Color</li>
+                                    <li>One Color</li>
+                                    <li>One Color</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a href='details.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth1.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='details.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth2.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='details.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth3.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='details.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth4.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='details.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth5.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='details.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth6.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href='details.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth7.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='no-product-in-cat.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth8.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href='no-product-in-cat.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth9.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='no-product-in-cat.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth10.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='no-product-in-cat.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth11.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href='no-product-in-cat.html' class="category-item">
+                        <div class="category-item-content">
+                            <img src="images/cloth12.png" alt="">
+
+                            <div class="category-item-content-text">
+                                <p class="category-item-label">Double-Layered Top</p>
+
+                                <p class="category-item-price">€ 89,95</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="pagination">
+                        <a href="#" class="pager active">1</a>
+                        <a href="#" class="pager">2</a>
+                        <a href="#" class="pager">3</a>
+                        <a href="#" class="pager">4</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="lookbook">
+    <div class="container">
+        <div class="row">
+            <h1>Check our lookbook</h1>
+        </div>
+    </div>
+</div>
+<div class="relate">
+    <div class="container">
+        <div class="carousel row">
+            <a class="arrow-l" ></a>
+            <a class="arrow-r" ></a>
+            <div class="carousel-inner">
+                <img class="col-md-1" src="images/carousel-1.png" alt="">
+                <img class="col-md-1" src="images/carousel-2.png" alt="">
+                <img class="col-md-1" src="images/carousel-3.png" alt="">
+                <img class="col-md-1" src="images/carousel-1.png" alt="">
+                <img class="col-md-1" src="images/carousel-2.png" alt="">
+                <img class="col-md-1" src="images/carousel-3.png" alt="">
+                <img class="col-md-1" src="images/carousel-1.png" alt="">
+                <img class="col-md-1" src="images/carousel-2.png" alt="">
+                <img class="col-md-1" src="images/carousel-3.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="row">
+
+                <div class="col-md-3 collection">
+                    <h1>collection</h1>
+
+                    <div class="collection-group">
+                        <a href="category-all.html" class="btn-link">Woman<span>(1725)</span></a>
+                        <a href="category-men.html" class="btn-link">Men<span>(635)</span></a>
+                        <a href="category-men.html" class="btn-link">Kids<span>(2514)</span></a>
+                        <a href="#" class="btn-link">Comming Soon<span>(76)</span></a>
+                    </div>
+                </div>
+                <div class="col-md-3 site">
+                    <h1>site</h1>
+
+                    <div class="site-group">
+                        <a href="#" class="btn-link">Terms of Service</a>
+                        <a href="#" class="btn-link">Privacy Policy</a>
+                        <a href="#" class="btn-link">Copyright Policy</a>
+                        <a href="#" class="btn-link">Press Kit</a>
+                        <a href="#" class="btn-link">Support</a>
+                    </div>
+                </div>
+                <div class="col-md-3 shop">
+                    <h1>shop</h1>
+
+                    <div class="shop-group">
+                        <a href="about-us.html" class="btn-link">About us</a>
+                        <a href="#" class="btn-link">Shipping Metods</a>
+                        <a href="#" class="btn-link">Career</a>
+                        <a href="contact.html" class="btn-link">Contact</a>
+                    </div>
+                </div>
+                <div class="col-md-3 social">
+                    <h1>social</h1>
+
+                    <p>
+                        Shoper is made with love in Warsaw,2014 © All rights reserved. El Passion
+                    </p>
+
+                    <div class="social-group">
+                        <a href="#" id="tw"></a>
+                        <a href="#" id="fb"></a>
+                        <a href="#" id="fbg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+
+</html>

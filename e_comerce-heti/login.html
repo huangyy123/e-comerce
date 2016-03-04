@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SH</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-light">
+                    <div class="pull-left">
+                        <a class="logo" href="#">SH</a>
+                    </div>
+                    <button class="navbar-menu-btn navbar-toggler pull-right hidden-md-up" type="button" data-toggle="collapse" data-target="#navbar">
+                    </button>
+                    <div class="collapse navbar-toggleable-sm" id="navbar">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Woman</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Men</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Kids</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Comming Soon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="account pull-right col-md-6">
+                        <div class="search hidden-sm-down">
+                            <input type="hidden" name="search" placeholder="Search something...">
+                            <a id="search-icon" class="pull-right"></a>
+                        </div>
+                        <div class="basket">
+                            <i><img src="images/basket.png" alt="basket"></i>
+                            <a id="basket-bag" class="hidden-sm-down">Basket (
+                            <span id="basket-count">0</span> )
+                        </a>
+
+                            <div class="basket-bag-open col-md-6">
+                                <div class="basket-bag-open-item clearfix">
+                                    <div class="col-md-9">
+                                        <div class="col-md-3 text-middle">
+                                            <div class="text-middle-content">
+                                                <img src="images/shop-cat-product-alt.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 text-middle p-l-md">
+                                            <div class="text-middle-content">
+                                                FLORAL PLIMSOLL
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-6  text-middle">
+                                            <div class="text-middle-content">
+                                                €99,95
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pull-right text-center text-middle">
+                                            <div class="text-middle-content">
+                                                <a class="shopping-cat-product-delete">×</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="basket-bag-open-item clearfix">
+                                    <div class="col-md-9">
+                                        <div class="col-md-3 text-middle">
+                                            <div class="text-middle-content">
+                                                <img src="images/shop-cat-product-alt.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 text-middle p-l-md">
+                                            <div class="text-middle-content">
+                                                FLORAL PLIMSOLL
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-6  text-middle">
+                                            <div class="text-middle-content">
+                                                €99,95
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pull-right text-center text-middle">
+                                            <div class="text-middle-content">
+                                                <a class="shopping-cat-product-delete">×</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="basket-bag-open-item clearfix">
+                                    <div class="col-md-9">
+                                        <div class="col-md-3 text-middle">
+                                            <div class="text-middle-content">
+                                                <img src="images/shop-cat-product-alt.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9 text-middle p-l-md">
+                                            <div class="text-middle-content">
+                                                FLORAL PLIMSOLL
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="col-md-6  text-middle">
+                                            <div class="text-middle-content">
+                                                €99,95
+                                            </div>
+                                        </div>
+                                        <div class="col-md-1 pull-right text-center text-middle">
+                                            <div class="text-middle-content">
+                                                <a class="shopping-cat-product-delete">×</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="basket-bag-open-subtotal clearfix">
+                                    <p class="p-l-0 p-r-0 pull-left">Subtotal:<span class="basket-bag-subtotal-money">€567,95</span>
+                                    </p>
+                                    <button class="basket-bag-open-btn pull-right ">check out</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="user hidden-sm-down">
+                            <i><img src="images/user.png" alt="user"></i>
+                            <a href="order-history.html" id="user-name" class="hidden">Hi,Michal</a>
+                            <a id="login-in" href="#" class=""  data-toggle="modal" data-target="#login-modal">Log in</a>
+                            <span id="login-out" class="hidden">(<a href="#">logout</a>)</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="login">
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog col-sm-12 clearfix" role="document">
+                <h1>SIGN IN</h1>
+                <form action="" class="clearfix">
+                    <fieldset class="form-group col-sm-12">
+                        <label for="InputEmail">E-mail</label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Enter E-mail">
+                        <small class='tip'>请输入正确的邮箱地址</small>
+                    </fieldset>
+                    <fieldset class="form-group col-sm-12">
+                        <label for="InputPassword">password</label>
+                        <a id='ForgotPassword' class="pull-right" href="#">forgot password</a>
+                        <input type="password" class="form-control password" id="InputPassword" rows="6" placeholder="Input Password">
+                        <a href="#" class="password_show"><img src="images/login-password-eye.png" alt=""></a>
+                        <small class='tip'>请输入密码</small>
+                    </fieldset>
+                    <fieldset class="form-group col-sm-12 hidden">
+                        <label for="InputRePassword">repeat password</label>
+                        <input type="password" class="form-control password" id="InputRePassword" rows="6" placeholder="Repeat Password">
+                        <a href="#" class="password_show"><img src="images/login-password-eye.png" alt=""></a>
+                        <small class='tip'>请输入确认密码</small>
+                    </fieldset>
+                    <fieldset class="form-group col-sm-12 text-center">
+                        <button id="form-login" type="submit" class="btn bg-base col-xs-6 col-sm-4">log in</button>
+                        <a id='register' class="" href="#">I don’t have an account</a>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $('.modal').modal({
+            show:true
+        })
+    })
+</script>
+</html>
